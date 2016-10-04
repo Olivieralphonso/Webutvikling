@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans";
+}
+
+.BringLogo1 {
+    width: 70px;
+	height: auto;
+	float: left;
+}
+
+.BringLogo2 {
+    width: 50px;
+	height: auto;
+	float: left;
+}
+
+.NameB1 {
+    font-size: 200%;
+    font-weight: bold;
+	color: red;
+	padding-top: 20px;
+	margin: 0;
+	float: left;
+}
+
+.NameB2 {
+    font-size: 250%;
+    font-weight: bold;
+	color: red;
+	padding-top: 15px;
+	margin: 0;
+	float: left;
+}
+
+.BringLogo1, .NameB1, .btnDrop {
+	display: inline;
+}
+
+.BringLogo2, .NameB2 {
+	display: inline;
+}
+
+.Bring1 {
+	display: block;
+	margin: auto;
+    width: 20%;
+    height: auto;
+}
+
+.Bring2 {
+	display: block;
+	margin: auto;
+    width: 20%;
+    height: auto;
+}
+
+.Bring3 {
+	display: block;
+	margin: auto;
+    width: 20%;
+    height: auto;
+}
+
+.Del1 {
+    background-color: #51FF00;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	height: 548px;
+}
+
+.BackImage {
+	height: 315px;
+    width: 70%;
+    background: #51FF00;
+	padding-top: 110px;
+    box-shadow: 0 0 0 7px #fff;
+    font-size:  500%;
+    font-weight: bold;
+
+	
+    margin-top: 116.5px;
+	margin-left: 15%;
+	z-index: 999;
+}
+
+#ct{
+width: 100%;
+height: 788px;
+background-color: #fff;
+border-top: 223.5px solid white;
+}
+#ct1{
+width: 20%;
+height: auto;
+background-color: white;
+float: left;
+padding-left: 2%;
+margin-left: 10%;
+
+}
+#ct2{
+width: 20%;
+height: auto;
+float: left;
+margin-left: 20%;
+background-color: white;
+padding-left: 2%;
+margin-left: 10%;
+}
+#ct3{
+width: 20%;
+height: auto;
+float: right;
+background-color: white;
+padding-left: 2%;
+margin-right: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2A2A2A;
+}
+
+li {
+    float: left;
+}
+
+li a, .btnDrop {
+    display: inline-block;
+    color: #FFFFBF;
+	font-size: 150%;
+    text-align: center;
+    padding: 26px 18px;
+	padding-left: 35px;
+	padding-right: 35px;
+    text-decoration: none;
+}
+
+li a:hover, .btnDrop {
+    background-color: #093E32;
+}
+
+
+.DroppInnhold {
+    display: block;
+}
+
+.footer {
+    background-color: #2A2A2A;
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+    padding: 15px;
+	height: 173px;
+}
+
+.AllRight {
+	float:left;
+	font-size:130%;
+}
+
+.Social1 {
+	float:right;
+	margin-right: 10px;
+}
+
+.Social2 {
+	float:right;
+	margin-right: 20px;
+}
+    /* Gjøres i oblig3 For mobil: 
+  
+  @media only screen and (max-width: 768px) {
+      
+  
+    } 
+  
+  */
